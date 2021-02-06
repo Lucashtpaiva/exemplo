@@ -1,0 +1,212 @@
+<!DOCTYPE html "pt-BR">
+<html>
+
+<head>
+	<TITLE>Stream</TITLE>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		body {
+			color: white;
+			background-image: linear-gradient(#000, #1C1C1C, #363636);
+			padding: 0;
+			margin: 0;
+		}
+
+		#noticia {
+			background: #00FF00;
+			padding: 10px;
+		}
+
+		.cor {
+			color: #00FF00;
+			font-weight: 900;
+			font-size: 20px;
+		}
+
+		.cor:hover {
+			text-decoration: underline;
+		}
+
+		#galeria {
+			/*width: 150px;*/
+			float: left;
+			margin: 0 10px;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.foto {
+			width: 150px;
+			transition: .5s;
+		}
+
+		.foto:hover {
+			position: relative;
+			top: -7px;
+			right: -7px;
+			box-shadow: -7px 8px #00FF00;
+			transition: .5s;
+
+		}
+
+		.barracima {
+			background: #1c1c1c;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			height: 50px;
+			box-shadow: 0px 0px 10px 0px #00FF00;
+			transition: .5s;
+
+		}
+
+		.title {
+			margin-top: 70px;
+		}
+
+		#font {
+			font-size: 18px;
+		}
+
+		.teste {
+			position: fixed;
+			text-align: left;
+			top: 0;
+			right: 143px;
+			background-color: #4F4F4F;
+			padding: 5px;
+			border-radius: 5px;
+			margin: 10px;
+			cursor: pointer;
+		}
+
+		.teste:hover {
+			background: gray;
+			transition: .5s;
+		}
+
+		.cadastrar {
+			position: fixed;
+			text-align: left;
+			top: 0;
+			right: 40px;
+			background-color: #09B012;
+			padding: 5px;
+			border-radius: 5px;
+			margin: 10px;
+			cursor: pointer;
+		}
+
+		.cadastrar:hover {
+			background: #228B22;
+			transition: .5s;
+		}
+
+		.Procurar {
+			text-align: left;
+			position: fixed;
+			top: 0;
+			left: 60;
+			margin: 14px 0px 0px 0px;
+			cursor: pointer;
+		}
+
+		.Procurar:hover {
+			color: #00FF00;
+		}
+
+		.Esports {
+			text-align: left;
+			position: fixed;
+			top: 0;
+			left: 140;
+			margin: 15px 0px 0px 0px;
+			cursor: pointer;
+		}
+
+		.Esports:hover {
+			color: #00FF00;
+		}
+
+		.musica {
+			text-align: left;
+			position: fixed;
+			top: 0;
+			left: 210;
+			margin: 15px 0px 0px 0px;
+			cursor: pointer;
+		}
+
+		.musica:hover {
+			color: #00FF00;
+		}
+
+		.tres {
+			text-align: left;
+			position: fixed;
+			top: 0;
+			left: 265;
+			padding: 5px;
+			margin: 10px;
+			cursor: pointer;
+
+		}
+
+		.tres:hover {
+			background: #363636;
+			border-radius: 5px;
+		}
+
+		.margin {
+			margin: 0px 0px 10px 10px;
+		}
+
+		.imagem {
+			position: fixed;
+			text-align: left;
+			margin: 10px 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="barracima">
+		<img class="imagem" src="imagem/logogreen.png">
+	</div>
+	<div>
+		<span id="font" class="Procurar">Procurar</span>
+		<span id="font" class="Esports">Esports</span>
+		<span id="font" class="musica">Música</span>
+		<span id="font" class="tres">...</span>
+		<span id="entrar" class="teste">Entrar</span>
+		<span class="cadastrar">Cadastrar-se</span>
+	</div>
+	<div class="title">
+		<p class="margin">
+			<span class="cor">Categorias</span> que achamos que vai gostar
+		</p>
+	</div>
+
+	<div id="galeria">
+		<img class="foto" src="imagem/Among Us.jpg">
+		<p>Among us</p>
+	</div>
+
+	<div id="galeria">
+		<img class="foto" src="imagem/Fortnite.jpg">
+		<p>Fortnite</p>
+	</div>
+
+	<div id="galeria">
+		<img class="foto" src="imagem/Valorant.jpg">
+		<p>Valorant</p>
+	</div>
+
+	<div id="galeria">
+		<img class="foto" src="imagem/Grand Theft Auto V.jpg">
+		<p>Grand Theft Auto V</p>
+	</div>
+</body>
+
+</html>
